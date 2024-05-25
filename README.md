@@ -56,11 +56,8 @@ GOOGLE_SAFE_BROWSING=https://safebrowsing.googleapis.com/v4/threatMatches:find?k
 php artisan migrate
 ```
 
-6. Seed some fake data to the database
-
-```bash
-php artisan db:seed
-```
+6. Import the database, via one of the tools of your preference e.g phpmyadmin, Adminer, Navicat etc.
+   Database dump is located in: `/database/database_dump.sql`
 
 7. Install NPM dependencies and compile assets
 
@@ -93,5 +90,3 @@ app\Helpers\UrlHelper.php
 ```bash
 resources\js\pages\Home.vue
 ```
-
-10. Database dump is located in: `/database/database_dump.sql`
